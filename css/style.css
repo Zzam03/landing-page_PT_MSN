@@ -1,0 +1,40 @@
+.about{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.about h2{
+    color: #1E3A5F;
+    text-align: center;
+}
+
+.about p{
+    text-align: justify;
+    line-height: 25px;
+}
+
+.about h3{
+    color: #355C7D;
+}
+
+.about ul{
+    line-height: 30px;
+}
+
+.services{
+    background-color: #e8f1ff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.services h2{
+    color: #1E3A5F;
+    text-align: center;
+}
+
+.services p{
+    text-align: justify;
+}
