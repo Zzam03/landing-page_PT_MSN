@@ -39,3 +39,46 @@ css.gallery {
   color: #333;
 }
 
+css.site-footer {
+  background-color: #0a4d8c;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-links a {
+  color: #e6eefc;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsif akhir - Gallery, Contact, Footer */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-links a {
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
