@@ -39,3 +39,6 @@ landing-page_PT_MSN/
 
 ## Tujuan Project
 Project ini dibuat sebagai latihan pembuatan website sederhana sekaligus untuk mempelajari struktur project HTML dan CSS serta penggunaan Git dan GitHub.
+
+## TAMPILAN WEBSITE
+![Homepage](images/Tampilan.jpeg)
